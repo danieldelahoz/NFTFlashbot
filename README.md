@@ -22,3 +22,6 @@ for testing purposes
 
 
 *note*: the source code may be currently set-up for Ethereum. You NEED to change it to a testnet if you want to Test the flashbot, preferably Goerli.
+
+
+# Packages may need to be installed for program to run, as I did not include the node_modules.
