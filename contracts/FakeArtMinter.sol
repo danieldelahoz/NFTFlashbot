@@ -5,9 +5,7 @@ pragma solidity 0.8.7;
 // FakeERC721 = Faulty implementation of ERC721 for demo purposes only
 // FakeArtMinter = Very simple contract converting mint() + value into FakeERC721.mint()
 
-// Video tutorial here: https://www.youtube.com/user/epheph33
 
-// See: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol
 // This is a HEAVILY feature-reduced/non-compliant ERC721 token. It should NOT be used in production, as it is missing major functionality and security checks.
 contract FakeERC721 {
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
